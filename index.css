@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  font-family: Arial;
+}
+
+p{font-size: 1.2em}
+span{font-size: 0.8em}
+h1{text-align: center;font-size: 8em; color: #444}
+
+.drumset{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  position: absolute;
+  top: 40%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.keybox{
+  width: 60px;
+  height: 60px;
+  background-color: #444;
+  text-align: center;
+  color: #ffd700;
+  border: 2px solid #111;
+  margin: 0 15px 0 15px;
+  padding: 10px;
+  transition: transform 0.1s;
+}
+
+.playing{
+  border: 3px solid #ffd700;
+  transform: scale(1.2, 1.2);
+}
