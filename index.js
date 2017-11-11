@@ -3,7 +3,6 @@ let jsDrummer = (() => {
     let keyboxes, playKeyHandler, transitionEndHandler;
 
     playKeyHandler = (evt) => {
-      evt.preventDefault();
       const key = evt.keyCode,
             audio = document.querySelector(`audio[data-key="${key}"]`),
             keyBox = document.querySelector(`div[data-key="${key}"]`);
